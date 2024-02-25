@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "neuralnetworks"
+version = "0.1.0"
+description = "Learning neural networks from basics"
+authors = ["ImtiazKhanDS"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+lab = "^8.0"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+matplotlib = "^3.8.3"
+graphviz = "^0.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
